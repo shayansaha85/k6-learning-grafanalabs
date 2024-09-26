@@ -1,0 +1,8 @@
+
+Command for executing without the flags
+---
+K6_WEB_DASHBOARD=true K6_WEB_DASHBOARD_EXPORT=html-report-2.html k6 run script.js
+
+Command for executing with the flags
+---
+K6_WEB_DASHBOARD=true K6_WEB_DASHBOARD_EXPORT=html-report.html k6 run --vus 30 --duration 1m script.js
